@@ -1,0 +1,15 @@
+.tags {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  padding: 0px;
+  color: #e5e5e5;
+  opacity: 0.4;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 140%;
+  margin-bottom: 10px;
+}

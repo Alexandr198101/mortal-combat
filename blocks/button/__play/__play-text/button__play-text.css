@@ -1,0 +1,10 @@
+.button__play-text {
+  margin-left: 10px;
+  vertical-align: text-bottom;
+}
+
+@media screen and (max-width: 576px) {
+  .button__play-text {
+    display: none;
+  }
+}

@@ -1,0 +1,7 @@
+.tags__list {
+  margin-right: 15px;
+}
+
+.tags__list:last-child {
+  margin-right: 0px;
+}

@@ -1,0 +1,16 @@
+.description__text {
+  max-width: 460px;
+  color: white;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 21px;
+  line-height: 140%;
+  margin-bottom: 36px;
+}
+
+@media screen and (max-width: 576px) {
+  .description__text {
+    font-size: 16px;
+    max-width: 333px;
+  }
+}

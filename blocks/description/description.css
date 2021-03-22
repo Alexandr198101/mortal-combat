@@ -1,0 +1,12 @@
+.description {
+  width: 90%;
+  margin: auto;
+  max-width: 1146px;
+  padding: 8% 0;
+}
+
+@media screen and (max-width: 576px) {
+  .description {
+    padding: 3%;
+  }
+}

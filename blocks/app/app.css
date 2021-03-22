@@ -1,0 +1,35 @@
+.app {
+  background: linear-gradient(
+    90deg,
+    #010202 0%,
+    #010202 50%,
+    rgba(1, 2, 2, 0.2) 90%
+  );
+  /*url('../../img/cover-image.jpg') no-repeat center right;
+  */
+  min-height: 100vh;
+}
+
+/*@media screen and (max-width: 1200px) {
+  .app {
+    background-size: 50%;
+  }
+}*/
+
+@media screen and (max-width: 768px) {
+  .app {
+    height: auto;
+    padding-bottom: 400px;
+    background: url('../../img/cover-image.jpg') no-repeat bottom center / 300px;
+  }
+  video {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .app {
+    padding-bottom: 100px;
+    background-size: 300px;
+  }
+}
